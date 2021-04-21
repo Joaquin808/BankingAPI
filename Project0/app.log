@@ -1,0 +1,25 @@
+INFO:logger:Application start
+WARNING:werkzeug: * Debugger is active!INFO:werkzeug: * Restarting with stat
+0-124
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:45:44] "[37mGET /clients HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:45:52] "[37mPOST /clients HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:45:59] "[37mGET /clients HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:46:09] "[37mDELETE /clients/1 HTTP/1.1[0m" 204 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:46:12] "[37mGET /clients HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:46:28] "[37mPUT /clients/4 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:46:31] "[37mGET /clients HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:46:44] "[37mGET /clients/3/accounts HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:47:06] "[37mPOST /clients/3/accounts HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:47:12] "[37mGET /clients/3/accounts HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:47:39] "[37mPUT /clients/3/accounts/4 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:47:44] "[37mGET /clients/3/accounts HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:48:10] "[37mPATCH /clients/3/accounts/4 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:48:15] "[37mGET /clients/3/accounts HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:48:28] "[37mPATCH /clients/3/accounts/4 HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:48:32] "[37mGET /clients/3/accounts HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:48:55] "[37mPATCH /clients/3/accounts/4/transfer/3 HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:49:00] "[37mGET /clients/3/accounts HTTP/1.1[0m" 200 -
+ERROR:logger:ResourceNotFound error while retrieving 8
+INFO:werkzeug:127.0.0.1 - - [21/Apr/2021 11:49:39] "[31m[1mGET /clients/8/accounts HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'G:\\RevatureWork\\Project0\\util\\db_connection.py', reloading
